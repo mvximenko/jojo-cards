@@ -23,7 +23,6 @@ export const Cards = styled.div`
   top: 50%;
   transform: translateY(-50%);
   -webkit-tap-highlight-color: transparent;
-  border: 2px solid red;
 `;
 
 export const Card = styled.div<{ isFlipped: boolean }>`
@@ -62,4 +61,55 @@ export const Img = styled.img`
   position: absolute;
   user-select: none;
   user-drag: none;
+`;
+
+export const Overlay = styled.div`
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 999;
+  user-select: none;
+  animation: fadein 0.5s 0.5s forwards;
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+`;
+
+export const Container = styled.div`
+  width: 80%;
+  margin-left: 10%;
+  padding: 5% 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 10vw;
+  font-weight: bold;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1vw solid rgba(255, 255, 255, 1);
+  border-radius: 1.5vw;
+`;
+
+export const Wrapper = styled.div`
+  width: 50%;
+  padding: 1%;
+  margin: 10px 25%;
+  cursor: pointer;
+  font-size: 5vw;
+  background: rgba(0, 0, 0, 0.6);
+  border: 0.5vw solid rgba(255, 255, 255, 1);
+  border-radius: 1vw;
+  transition: 0.3s ease all;
+  &:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
 `;

@@ -2,12 +2,23 @@ import { useState, useEffect, useMemo } from 'react';
 import stands from './data/stands';
 import users from './data/users';
 import { API_IMG } from './config';
-import { GlobalStyle } from './GlobalStyles';
-import { Cards, Card, Front, Back, Img } from './AppStyles';
 import { getPosition, shuffleArrays } from './helpers';
+import { GlobalStyle } from './GlobalStyles';
+import {
+  Cards,
+  Card,
+  Front,
+  Back,
+  Img,
+  Overlay,
+  Container,
+  Wrapper,
+} from './AppStyles';
 
 export default function App() {
-  const [{ start, end }] = useState(() => getPosition(users[0].length));
+  const [{ start, end }, setPosition] = useState(() =>
+    getPosition(users[0].length)
+  );
   const [openedCard, setOpenedCard] = useState<number[]>([]);
   const [matched, setMatched] = useState<number[]>([]);
   const [isBusy, setIsBusy] = useState(false);
@@ -43,9 +54,27 @@ export default function App() {
     if (!isBusy) setOpenedCard((opened) => [...opened, index]);
   };
 
+  const restart = () => {
+    setMatched([]);
+    setOpenedCard([]);
+    setTimeout(() => {
+      setPosition(() => getPosition(users[0].length));
+    }, 500);
+  };
+
   return (
     <>
       <GlobalStyle />
+      {matched.length === 14 && (
+        <Overlay>
+          <Container>
+            YOU WIN
+            <Wrapper>Select Part</Wrapper>
+            <Wrapper onClick={restart}>Again</Wrapper>
+          </Container>
+        </Overlay>
+      )}
+
       <Cards>
         {pairs.map((pair, index) => {
           let isFlipped = false;
