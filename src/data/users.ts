@@ -171,6 +171,135 @@ const users = [
       image: 'holy-kujo',
     },
   ],
+  [
+    {
+      id: 1,
+      name: 'Toyohiro Kanedaichi',
+      image: 'toyohiro-kanedaichi',
+    },
+    {
+      id: 2,
+      name: 'Shigekiyo Yangu',
+      image: 'shigekiyo-yangu',
+    },
+    {
+      id: 3,
+      name: 'Aya Tsuji',
+      image: 'aya-tsuji',
+    },
+    {
+      id: 4,
+      name: 'Yoshihiro Kira',
+      image: 'yoshihiro-kira',
+    },
+    {
+      id: 5,
+      name: 'Ken Oyanagi',
+      image: 'ken-oyanagi',
+    },
+    {
+      id: 6,
+      name: 'Mikitaka Hazekura',
+      image: 'mikitaka-hazekura',
+    },
+    {
+      id: 7,
+      name: 'Yuya Fungami',
+      image: 'yuya-fungami',
+    },
+    {
+      id: 8,
+      name: 'Tama',
+      image: 'tama',
+    },
+    {
+      id: 9,
+      name: 'Josuke Higashikata',
+      image: 'josuke-higashikata',
+    },
+    {
+      id: 10,
+      name: 'Jotaro Kujo',
+      image: 'jotaro-kujo-part-4',
+    },
+    {
+      id: 11,
+      name: 'Okuyasu Nijimura',
+      image: 'okuyasu-nijimura',
+    },
+    {
+      id: 12,
+      name: 'Koichi Hirose',
+      image: 'koichi-hirose',
+    },
+    {
+      id: 13,
+      name: 'Rohan Kishibe',
+      image: 'rohan-kishibe',
+    },
+    {
+      id: 14,
+      name: 'Yoshikage Kira',
+      image: 'yoshikage-kira',
+    },
+    {
+      id: 15,
+      name: 'Terunosuke Miyamoto',
+      image: 'terunosuke-miyamoto',
+    },
+    {
+      id: 16,
+      name: 'Masazo Kinoto',
+      image: 'masazo-kinoto',
+    },
+
+    {
+      id: 17,
+      name: `Nijimura's Father`,
+      image: 'nijimura-s-father',
+    },
+
+    {
+      id: 18,
+      name: 'Anjuro Katagiri',
+      image: 'anjuro-katagiri',
+    },
+    {
+      id: 19,
+      name: 'Keicho Nijimura',
+      image: 'keicho-nijimura',
+    },
+    {
+      id: 20,
+      name: 'Akira Otoishi',
+      image: 'akira-otoishi',
+    },
+    {
+      id: 21,
+      name: 'Tamami Kobayashi',
+      image: 'tamami-kobayashi',
+    },
+    {
+      id: 22,
+      name: 'Toshikazu Hazamada',
+      image: 'toshikazu-hazamada',
+    },
+    {
+      id: 23,
+      name: 'Yukako Yamagishi',
+      image: 'yukako-yamagishi',
+    },
+    {
+      id: 24,
+      name: 'Tonio Trussardi',
+      image: 'tonio-trussardi',
+    },
+    {
+      id: 25,
+      name: 'Joseph Joestar',
+      image: 'joseph-joestar-part-4',
+    },
+  ],
 ];
 
 export default users;

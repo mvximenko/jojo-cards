@@ -171,6 +171,134 @@ const stands = [
       image: 'holy-s-stand',
     },
   ],
+  [
+    {
+      id: 1,
+      name: 'Super Fly',
+      image: 'super-fly',
+    },
+    {
+      id: 2,
+      name: 'Harvest',
+      image: 'harvest',
+    },
+    {
+      id: 3,
+      name: 'Cinderella',
+      image: 'cinderella',
+    },
+    {
+      id: 4,
+      name: 'Atom Heart Father',
+      image: 'atom-heart-father',
+    },
+    {
+      id: 5,
+      name: 'Boy II Man',
+      image: 'boy-ii-man',
+    },
+    {
+      id: 6,
+      name: 'Earth Wind and Fire',
+      image: 'earth-wind-and-fire',
+    },
+    {
+      id: 7,
+      name: 'Highway Star',
+      image: 'highway-star',
+    },
+    {
+      id: 8,
+      name: 'Stray Cat',
+      image: 'stray-cat',
+    },
+    {
+      id: 9,
+      name: 'Crazy Diamond',
+      image: 'crazy-diamond',
+    },
+    {
+      id: 10,
+      name: 'Star Platinum',
+      image: 'star-platinum-part-4',
+    },
+    {
+      id: 11,
+      name: 'The Hand',
+      image: 'the-hand',
+    },
+    {
+      id: 12,
+      name: 'Echoes',
+      image: 'echoes',
+    },
+    {
+      id: 13,
+      name: `Heaven's Door`,
+      image: 'heaven-s-door',
+    },
+    {
+      id: 14,
+      name: 'Killer Queen',
+      image: 'killer-queen',
+    },
+    {
+      id: 15,
+      name: 'Enigma',
+      image: 'enigma',
+    },
+    {
+      id: 16,
+      name: 'Cheap Trick',
+      image: 'cheap-trick',
+    },
+    {
+      id: 17,
+      name: `Nijimura's Father's Stand`,
+      image: 'nijimura-s-father-s-stand',
+    },
+
+    {
+      id: 18,
+      name: 'Aqua Necklace',
+      image: 'aqua-necklace',
+    },
+    {
+      id: 19,
+      name: 'Bad Company',
+      image: 'bad-company',
+    },
+    {
+      id: 20,
+      name: 'Red Hot Chili Pepper',
+      image: 'red-hot-chili-pepper',
+    },
+    {
+      id: 21,
+      name: 'The Lock',
+      image: 'the-lock',
+    },
+    {
+      id: 22,
+      name: 'Surface',
+      image: 'surface',
+    },
+    {
+      id: 23,
+      name: 'Love Deluxe',
+      image: 'love-deluxe',
+    },
+    {
+      id: 24,
+      name: 'Pearl Jam',
+      image: 'pearl-jam',
+    },
+    {
+      id: 25,
+      name: 'Hermit Purple',
+      image: 'hermit-purple-part-4',
+    },
+  ],
 ];
 
 export default stands;
