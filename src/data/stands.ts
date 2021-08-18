@@ -58,7 +58,7 @@ const stands = [
     {
       id: 12,
       name: 'Silver Chariot',
-      image: 'silver-chariot',
+      image: 'silver-chariot-part-3',
     },
     {
       id: 13,
@@ -230,7 +230,7 @@ const stands = [
     {
       id: 12,
       name: 'Echoes',
-      image: 'echoes',
+      image: 'echoes-part-4',
     },
     {
       id: 13,
@@ -297,6 +297,145 @@ const stands = [
       id: 25,
       name: 'Hermit Purple',
       image: 'hermit-purple-part-4',
+    },
+  ],
+  [
+    {
+      id: 1,
+      name: 'Echoes',
+      image: 'echoes-part-5',
+    },
+    {
+      id: 2,
+      name: 'Black Sabbath',
+      image: 'black-sabbath',
+    },
+    {
+      id: 3,
+      name: 'Soft Machine',
+      image: 'soft-machine',
+    },
+    {
+      id: 4,
+      name: 'Kraft Work',
+      image: 'kraft-work',
+    },
+    {
+      id: 5,
+      name: 'Little Feet',
+      image: 'little-feet',
+    },
+    {
+      id: 6,
+      name: 'Man in the Mirror',
+      image: 'man-in-the-mirror',
+    },
+    {
+      id: 7,
+      name: 'Mr.President',
+      image: 'mr-president',
+    },
+
+    {
+      id: 8,
+      name: 'Gold Experience',
+      image: 'gold-experience',
+    },
+    {
+      id: 9,
+      name: 'Sticky Fingers',
+      image: 'sticky-fingers',
+    },
+    {
+      id: 10,
+      name: 'Moody Blues',
+      image: 'moody-blues',
+    },
+    {
+      id: 11,
+      name: 'Sex Pistols',
+      image: 'sex-pistols',
+    },
+    {
+      id: 12,
+      name: 'Aerosmith',
+      image: 'aerosmith',
+    },
+    {
+      id: 13,
+      name: 'Purple Haze',
+      image: 'purple-haze',
+    },
+    {
+      id: 14,
+      name: 'Spice Girl',
+      image: 'spice-girl',
+    },
+    {
+      id: 15,
+      name: 'Silver Chariot',
+      image: 'silver-chariot-part-5',
+    },
+    {
+      id: 16,
+      name: 'King Crimson',
+      image: 'king-crimson',
+    },
+    {
+      id: 17,
+      name: 'Beach Boy',
+      image: 'beach-boy',
+    },
+
+    {
+      id: 18,
+      name: 'The Grateful Dead',
+      image: 'the-grateful-dead',
+    },
+    {
+      id: 19,
+      name: 'Baby Face',
+      image: 'baby-face',
+    },
+    {
+      id: 20,
+      name: 'White Album',
+      image: 'white-album',
+    },
+    {
+      id: 21,
+      name: 'Clash',
+      image: 'clash',
+    },
+    {
+      id: 22,
+      name: 'Talking Head',
+      image: 'talking-head',
+    },
+    {
+      id: 23,
+      name: 'Notorious B.I.G',
+      image: 'notorious-b-i-g',
+    },
+    {
+      id: 24,
+      name: 'Metallica',
+      image: 'metallica',
+    },
+    {
+      id: 25,
+      name: 'Green Day',
+      image: 'green-day',
+    },
+    {
+      id: 26,
+      name: 'Oasis',
+      image: 'oasis',
+    },
+    {
+      id: 27,
+      name: 'Rolling Stones',
+      image: 'rolling-stones',
     },
   ],
 ];
