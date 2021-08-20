@@ -63,7 +63,7 @@ export const Img = styled.img`
   user-drag: none;
 `;
 
-export const Overlay = styled.div`
+export const Overlay = styled.div<{ menu?: boolean }>`
   position: fixed;
   top: 0;
   right: 0;
@@ -72,7 +72,10 @@ export const Overlay = styled.div`
   opacity: 0;
   z-index: 999;
   user-select: none;
+  background: rgba(0, 0, 0, 0.6);
   animation: fadein 0.5s 0.5s forwards;
+  ${({ menu }) => menu && `animation: fadein 0.5s forwards;`}
+
   @keyframes fadein {
     from {
       opacity: 0;
@@ -83,31 +86,34 @@ export const Overlay = styled.div`
   }
 `;
 
-export const Container = styled.div`
-  width: 80%;
-  margin-left: 10%;
-  padding: 5% 0;
+export const Container = styled.div<{ menu?: boolean }>`
+  width: 70%;
+  margin-left: 15%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: #fff;
-  font-size: 10vw;
   font-weight: bold;
   text-align: center;
-  background: rgba(0, 0, 0, 0.6);
-  border: 1vw solid rgba(255, 255, 255, 1);
-  border-radius: 1.5vw;
+  ${({ menu }) => menu && `width: 80%; margin-left: 10%;`}
+`;
+
+export const YouWin = styled.div`
+  width: 50%;
+  margin: 30px 25%;
+  font-size: 5vw;
+  color: black;
+  background: white;
 `;
 
 export const Wrapper = styled.div`
   width: 50%;
   padding: 1%;
-  margin: 10px 25%;
+  margin: 15px 25%;
   cursor: pointer;
-  font-size: 5vw;
+  font-size: 3vw;
+  color: white;
   background: rgba(0, 0, 0, 0.6);
-  border: 0.5vw solid rgba(255, 255, 255, 1);
-  border-radius: 1vw;
+  border: 0.25vw solid white;
   transition: 0.3s ease all;
   &:hover {
     background: rgba(0, 0, 0, 0.8);
