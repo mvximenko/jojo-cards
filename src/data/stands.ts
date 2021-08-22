@@ -438,6 +438,123 @@ const stands = [
       image: 'rolling-stones',
     },
   ],
+  [
+    {
+      id: 1,
+      name: 'Yo-Yo Ma',
+      image: 'yo-yo-ma',
+    },
+    {
+      id: 2,
+      name: 'Green, Green Grass of Home',
+      image: 'green-green-grass-of-home',
+    },
+    {
+      id: 3,
+      name: 'Jail House Lock',
+      image: 'jail-house-lock',
+    },
+    {
+      id: 4,
+      name: 'Bohemian Rhapsody',
+      image: 'bohemian-rhapsody',
+    },
+    {
+      id: 5,
+      name: 'Sky High',
+      image: 'sky-high',
+    },
+    {
+      id: 6,
+      name: 'Under World',
+      image: 'under-world',
+    },
+    {
+      id: 7,
+      name: 'Stone Free',
+      image: 'stone-free',
+    },
+    {
+      id: 8,
+      name: 'Star Platinum: The World',
+      image: 'star-platinum-the-world',
+    },
+    {
+      id: 9,
+      name: 'Kiss',
+      image: 'kiss',
+    },
+    {
+      id: 10,
+      name: 'Burning Down the House',
+      image: 'burning-down-the-house',
+    },
+    {
+      id: 11,
+      name: 'Foo Fighters',
+      image: 'foo-fighters',
+    },
+    {
+      id: 12,
+      name: 'Weather Report',
+      image: 'weather-report',
+    },
+    {
+      id: 13,
+      name: 'Diver Down',
+      image: 'diver-down',
+    },
+    {
+      id: 14,
+      name: 'Made in Heaven',
+      image: 'made-in-heaven',
+    },
+    {
+      id: 15,
+      name: 'Goo Goo Dolls',
+      image: 'goo-goo-dolls',
+    },
+    {
+      id: 16,
+      name: 'Manhattan Transfer',
+      image: 'manhattan-transfer',
+    },
+    {
+      id: 17,
+      name: 'Highway to Hell',
+      image: 'highway-to-hell',
+    },
+    {
+      id: 18,
+      name: 'Marilyn Manson',
+      image: 'marilyn-manson',
+    },
+    {
+      id: 19,
+      name: `Jumpin' Jack Flash`,
+      image: 'jumpin-jack-flash',
+    },
+    {
+      id: 20,
+      name: 'Limp Bizkit',
+      image: 'limp-bizkit',
+    },
+    {
+      id: 21,
+      name: 'Survivor',
+      image: 'survivor',
+    },
+    {
+      id: 22,
+      name: 'Planet Waves',
+      image: 'planet-waves',
+    },
+    {
+      id: 23,
+      name: `Dragon's Dream`,
+      image: 'dragon-s-dream',
+    },
+  ],
 ];
 
 export default stands;

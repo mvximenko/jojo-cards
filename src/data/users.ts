@@ -437,6 +437,123 @@ const users = [
       image: 'scolippi',
     },
   ],
+  [
+    {
+      id: 1,
+      name: 'D an G',
+      image: 'd-an-g',
+    },
+    {
+      id: 2,
+      name: 'The Green Baby',
+      image: 'the-green-baby',
+    },
+    {
+      id: 3,
+      name: 'Miuccia Miuller',
+      image: 'miuccia-miuller',
+    },
+    {
+      id: 4,
+      name: 'Ungalo',
+      image: 'ungalo',
+    },
+    {
+      id: 5,
+      name: 'Rikiel',
+      image: 'rikiel',
+    },
+    {
+      id: 6,
+      name: 'Donatello Versus',
+      image: 'donatello-versus',
+    },
+    {
+      id: 7,
+      name: 'Jolyne Cujoh',
+      image: 'jolyne-cujoh',
+    },
+    {
+      id: 8,
+      name: 'Jotaro Kujo',
+      image: 'jotaro-kujo',
+    },
+    {
+      id: 9,
+      name: 'Ermes Costello',
+      image: 'ermes-costello',
+    },
+    {
+      id: 10,
+      name: 'Emporio Alniño',
+      image: 'emporio-alnino',
+    },
+    {
+      id: 11,
+      name: 'Foo Fighters',
+      image: 'foo-fighters-user',
+    },
+    {
+      id: 12,
+      name: 'Weather Report',
+      image: 'weather-report-user',
+    },
+    {
+      id: 13,
+      name: 'Narciso Anasui',
+      image: 'narciso-anasui',
+    },
+    {
+      id: 14,
+      name: 'Enrico Pucci',
+      image: 'enrico-pucci',
+    },
+    {
+      id: 15,
+      name: 'Gwess',
+      image: 'gwess',
+    },
+    {
+      id: 16,
+      name: 'Johngalli A',
+      image: 'johngalli-a',
+    },
+    {
+      id: 17,
+      name: 'Thunder McQueen',
+      image: 'thunder-mc-queen',
+    },
+    {
+      id: 18,
+      name: 'Miraschon',
+      image: 'miraschon',
+    },
+    {
+      id: 19,
+      name: 'Lang Rangler',
+      image: 'lang-rangler',
+    },
+    {
+      id: 20,
+      name: 'Sports Maxx',
+      image: 'sports-maxx',
+    },
+    {
+      id: 21,
+      name: 'Guccio',
+      image: 'guccio',
+    },
+    {
+      id: 22,
+      name: 'Viviano Westwood',
+      image: 'viviano-westwood',
+    },
+    {
+      id: 23,
+      name: 'Kenzou',
+      image: 'kenzou',
+    },
+  ],
 ];
 
 export default users;
