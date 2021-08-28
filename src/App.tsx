@@ -88,9 +88,8 @@ export default function App() {
             </Wrapper>
             <Wrapper onClick={() => startGame(2)}>Golden Wind</Wrapper>
             <Wrapper onClick={() => startGame(3)}>Stone Ocean</Wrapper>
+            <Wrapper onClick={() => startGame(4)}>Steel Ball Run</Wrapper>
             {/* 
-             
-              <Wrapper onClick={() => startGame(4)}>Steel Ball Run</Wrapper>
               <Wrapper onClick={() => startGame(5)}>JoJolion</Wrapper> 
             */}
           </Container>

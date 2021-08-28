@@ -554,6 +554,108 @@ const users = [
       image: 'kenzou',
     },
   ],
+  [
+    {
+      id: 1,
+      name: 'Eleven Men',
+      image: 'eleven-men',
+    },
+    {
+      id: 2,
+      name: 'Mike O.',
+      image: 'mike-o',
+    },
+    {
+      id: 3,
+      name: 'Magent Magent',
+      image: 'magent-magent',
+    },
+    {
+      id: 4,
+      name: 'Axl RO',
+      image: 'axl-ro',
+    },
+    {
+      id: 5,
+      name: 'D-I-S-C-O',
+      image: 'd-i-s-c-o',
+    },
+    {
+      id: 6,
+      name: 'Blackmore',
+      image: 'blackmore',
+    },
+    {
+      id: 7,
+      name: 'Johnny Joestar',
+      image: 'johnny-joestar',
+    },
+    {
+      id: 8,
+      name: 'Gyro Zeppeli',
+      image: 'gyro-zeppeli',
+    },
+    {
+      id: 9,
+      name: 'Mountain Tim',
+      image: 'mountain-tim',
+    },
+    {
+      id: 10,
+      name: 'Diego Brando',
+      image: 'diego-brando',
+    },
+    {
+      id: 11,
+      name: 'Hot Pants',
+      image: 'hot-pants',
+    },
+    {
+      id: 12,
+      name: 'Lucy Steel',
+      image: 'lucy-steel',
+    },
+    {
+      id: 13,
+      name: 'Funny Valentine',
+      image: 'funny-valentine',
+    },
+    {
+      id: 14,
+      name: 'Sandman',
+      image: 'sandman',
+    },
+    {
+      id: 15,
+      name: 'Pocoloco',
+      image: 'pocoloco',
+    },
+    {
+      id: 16,
+      name: 'Benjamin Boom Boom',
+      image: 'benjamin-boom-boom',
+    },
+    {
+      id: 17,
+      name: 'Oyecomova',
+      image: 'oyecomova',
+    },
+    {
+      id: 18,
+      name: 'Pork Pie Hat Kid',
+      image: 'pork-pie-hat-kid',
+    },
+    {
+      id: 19,
+      name: 'Ringo Roadagain',
+      image: 'ringo-roadagain',
+    },
+    {
+      id: 20,
+      name: 'Alternate Diego Brando',
+      image: 'alternate-diego-brando',
+    },
+  ],
 ];
 
 export default users;

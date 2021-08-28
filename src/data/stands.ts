@@ -555,6 +555,108 @@ const stands = [
       image: 'dragon-s-dream',
     },
   ],
+  [
+    {
+      id: 1,
+      name: 'Tatoo You!',
+      image: 'tatoo-you',
+    },
+    {
+      id: 2,
+      name: 'Tubular Bells',
+      image: 'tubular-bells',
+    },
+    {
+      id: 3,
+      name: '20th Century Boy',
+      image: '20-th-century-boy',
+    },
+    {
+      id: 4,
+      name: 'Civil War',
+      image: 'civil-war',
+    },
+    {
+      id: 5,
+      name: 'Chocolate Disco',
+      image: 'chocolate-disco',
+    },
+    {
+      id: 6,
+      name: 'Catch the Rainbow',
+      image: 'catch-the-rainbow',
+    },
+    {
+      id: 7,
+      name: 'Tusk',
+      image: 'tusk',
+    },
+    {
+      id: 8,
+      name: 'Ball Breaker',
+      image: 'ball-breaker',
+    },
+    {
+      id: 9,
+      name: 'Oh! Lonesome Me',
+      image: 'oh-lonesome-me',
+    },
+    {
+      id: 10,
+      name: 'Scary Monsters',
+      image: 'scary-monsters',
+    },
+    {
+      id: 11,
+      name: 'Cream Starter',
+      image: 'cream-starter',
+    },
+    {
+      id: 12,
+      name: 'Ticket to Ride',
+      image: 'ticket-to-ride',
+    },
+    {
+      id: 13,
+      name: 'Dirty Deeds Done Dirt Cheap',
+      image: 'dirty-deeds-done-dirt-cheap',
+    },
+    {
+      id: 14,
+      name: 'In a Silent Way',
+      image: 'in-a-silent-way',
+    },
+    {
+      id: 15,
+      name: 'Hey Ya!',
+      image: 'hey-ya',
+    },
+    {
+      id: 16,
+      name: 'Tomb of the Boom',
+      image: 'tomb-of-the-boom',
+    },
+    {
+      id: 17,
+      name: 'Boku no Rhythm wo Kiitekure',
+      image: 'boku-no-rhythm-wo-kiitekure',
+    },
+    {
+      id: 18,
+      name: 'Wired',
+      image: 'wired',
+    },
+    {
+      id: 19,
+      name: 'Mandom',
+      image: 'mandom',
+    },
+    {
+      id: 20,
+      name: 'THE WORLD',
+      image: 'the-world-part-7',
+    },
+  ],
 ];
 
 export default stands;
