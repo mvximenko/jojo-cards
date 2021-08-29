@@ -657,6 +657,128 @@ const stands = [
       image: 'the-world-part-7',
     },
   ],
+  [
+    {
+      id: 1,
+      name: 'Doggy Style',
+      image: 'doggy-style',
+    },
+    {
+      id: 2,
+      name: 'Brain Storm',
+      image: 'brain-storm',
+    },
+    {
+      id: 3,
+      name: 'Ozon Baby',
+      image: 'ozon-baby',
+    },
+    {
+      id: 4,
+      name: 'Doctor Wu',
+      image: 'doctor-wu',
+    },
+    {
+      id: 5,
+      name: 'Awaking III Leaves',
+      image: 'awaking-iii-leaves',
+    },
+    {
+      id: 6,
+      name: 'Wonder of U',
+      image: 'wonder-of-u',
+    },
+    {
+      id: 7,
+      name: 'Soft & Wet',
+      image: 'soft-wet',
+    },
+    {
+      id: 8,
+      name: 'Paisley Park',
+      image: 'paisley-park',
+    },
+    {
+      id: 9,
+      name: 'Nut King Call',
+      image: 'nut-king-call',
+    },
+    {
+      id: 10,
+      name: 'Paper Moon King',
+      image: 'paper-moon-king',
+    },
+    {
+      id: 11,
+      name: 'King Nothing',
+      image: 'king-nothing',
+    },
+    {
+      id: 12,
+      name: 'Speed King',
+      image: 'speed-king',
+    },
+    {
+      id: 13,
+      name: 'Killer Queen',
+      image: 'killer-queen-part-8',
+    },
+    {
+      id: 14,
+      name: 'Fun Fun Fun',
+      image: 'fun-fun-fun',
+    },
+    {
+      id: 15,
+      name: 'California King Bed',
+      image: 'california-king-bed',
+    },
+    {
+      id: 16,
+      name: 'Born This Way',
+      image: 'born-this-way',
+    },
+    {
+      id: 17,
+      name: 'Space Trucking',
+      image: 'space-trucking',
+    },
+    {
+      id: 18,
+      name: 'I Am a Rock',
+      image: 'i-am-a-rock',
+    },
+    {
+      id: 19,
+      name: 'Doobie Wah!',
+      image: 'doobie-wah',
+    },
+    {
+      id: 20,
+      name: 'Love Love Deluxe',
+      image: 'love-love-deluxe',
+    },
+    {
+      id: 21,
+      name: 'Schott Key No.2',
+      image: 'schott-key-no-2',
+    },
+    {
+      id: 22,
+      name: 'Vitamin C',
+      image: 'vitamin-c',
+    },
+    {
+      id: 23,
+      name: 'Walking Heart',
+      image: 'walking-heart',
+    },
+    {
+      id: 24,
+      name: 'Blue Hawaii',
+      image: 'blue-hawaii',
+    },
+  ],
 ];
 
 export default stands;

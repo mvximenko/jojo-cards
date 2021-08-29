@@ -656,6 +656,128 @@ const users = [
       image: 'alternate-diego-brando',
     },
   ],
+  [
+    {
+      id: 1,
+      name: 'Rai Mamezuku',
+      image: 'rai-mamezuku',
+    },
+    {
+      id: 2,
+      name: 'Urban Guerrilla',
+      image: 'urban-guerrilla',
+    },
+    {
+      id: 3,
+      name: 'Poor Tom',
+      image: 'poor-tom',
+    },
+    {
+      id: 4,
+      name: 'Wu Tomoki',
+      image: 'wu-tomoki',
+    },
+    {
+      id: 5,
+      name: 'Mitsuba Higashikata',
+      image: 'mitsuba-higashikata',
+    },
+    {
+      id: 6,
+      name: 'Tooru',
+      image: 'tooru',
+    },
+    {
+      id: 7,
+      name: 'Josuke Higashikata',
+      image: 'josuke-higashikata-part-8',
+    },
+    {
+      id: 8,
+      name: 'Yasuho Hirose',
+      image: 'yasuho-hirose',
+    },
+    {
+      id: 9,
+      name: 'Joshu Higashikata',
+      image: 'joshu-higashikata',
+    },
+    {
+      id: 10,
+      name: 'Tsurugi Higashikata',
+      image: 'tsurugi-higashikata',
+    },
+    {
+      id: 11,
+      name: 'Norisuke Higashikata IV',
+      image: 'norisuke-higashikata-iv',
+    },
+    {
+      id: 12,
+      name: 'Jobin Higashikata',
+      image: 'jobin-higashikata',
+    },
+    {
+      id: 13,
+      name: 'Yoshikage Kira',
+      image: 'yoshikage-kira-part-8',
+    },
+    {
+      id: 14,
+      name: 'Ojiro Sasame',
+      image: 'ojiro-sasame',
+    },
+    {
+      id: 15,
+      name: 'Daiya Higashikata',
+      image: 'daiya-higashikata',
+    },
+    {
+      id: 16,
+      name: 'Kyo Nijimura',
+      image: 'kyo-nijimura',
+    },
+    {
+      id: 17,
+      name: 'Kaato Higashikata',
+      image: 'kaato-higashikata',
+    },
+    {
+      id: 18,
+      name: 'Yotsuyu Yagiyama',
+      image: 'yotsuyu-yagiyama',
+    },
+    {
+      id: 19,
+      name: 'Aisho Dainenjiyama',
+      image: 'aisho-dainenjiyama',
+    },
+    {
+      id: 20,
+      name: 'Karera Sakunami',
+      image: 'karera-sakunami',
+    },
+    {
+      id: 21,
+      name: 'A. Phex Brothers',
+      image: 'a-phex-brothers',
+    },
+    {
+      id: 22,
+      name: 'Tamaki Damo',
+      image: 'tamaki-damo',
+    },
+    {
+      id: 23,
+      name: 'Hato Higashikata',
+      image: 'hato-higashikata',
+    },
+    {
+      id: 24,
+      name: 'Dolomite',
+      image: 'dolomite',
+    },
+  ],
 ];
 
 export default users;
