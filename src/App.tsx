@@ -99,7 +99,7 @@ export default function App() {
               <Container>
                 <YouWin>YOU WIN</YouWin>
                 <Wrapper onClick={() => setMenu(true)}>Select Part</Wrapper>
-                <Wrapper onClick={restart}>Again</Wrapper>
+                <Wrapper onClick={restart}>Play Again</Wrapper>
               </Container>
             </Overlay>
           )}
