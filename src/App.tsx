@@ -17,7 +17,7 @@ import {
 } from './AppStyles';
 
 export default function App() {
-  const [part, setPart] = useState(0);
+  const [part, setPart] = useState(1);
   const [menu, setMenu] = useState(true);
   const [openedCard, setOpenedCard] = useState<number[]>([]);
   const [matched, setMatched] = useState<number[]>([]);
@@ -77,7 +77,7 @@ export default function App() {
 
   return (
     <>
-      <GlobalStyle />
+      <GlobalStyle palette={part} />
 
       {menu ? (
         <Overlay menu>
