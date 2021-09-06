@@ -39,4 +39,9 @@ export const GlobalStyle = createGlobalStyle<{ palette: number }>`
     position: relative;    
     ${({ palette }) => palettes(palette)}
   }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 `;

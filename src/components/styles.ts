@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const card = css`
   display: flex;
@@ -14,6 +15,33 @@ const card = css`
 
   @media only screen and (max-width: 960px) {
     border-radius: 1.5vw;
+  }
+`;
+
+const wrapper = css`
+  width: 50%;
+  padding: 1%;
+  margin: 30px 25%;
+  font-size: 2.5vw;
+  border: 0.25vw solid white;
+  cursor: pointer;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  transition: 0.3s ease all;
+  &:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  @media only screen and (max-width: 1920px) {
+    margin: 20px 25%;
+  }
+
+  @media only screen and (max-width: 960px) {
+    width: 100%;
+    padding: 5%;
+    margin: 15px 0;
+    font-size: 5vw;
+    border: 0.4vw solid white;
   }
 `;
 
@@ -119,7 +147,7 @@ export const Container = styled.div<{ menu?: boolean }>`
   ${({ menu }) => menu && `width: 80%; margin-left: 10%;`}
 `;
 
-export const YouWin = styled.div`
+export const Title = styled.div`
   width: 50%;
   margin: 42px 25%;
   font-size: 5vw;
@@ -139,28 +167,10 @@ export const YouWin = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  width: 50%;
-  padding: 1%;
-  margin: 30px 25%;
-  font-size: 2.5vw;
-  border: 0.25vw solid white;
-  cursor: pointer;
-  color: white;
-  background: rgba(0, 0, 0, 0.6);
-  transition: 0.3s ease all;
-  &:hover {
-    background: rgba(0, 0, 0, 0.8);
-  }
+  ${wrapper}
+`;
 
-  @media only screen and (max-width: 1920px) {
-    margin: 20px 25%;
-  }
-
-  @media only screen and (max-width: 960px) {
-    width: 100%;
-    padding: 5%;
-    margin: 15px 0;
-    font-size: 5vw;
-    border: 0.4vw solid white;
-  }
+export const StyledLink = styled(Link)`
+  display: block;
+  ${wrapper}
 `;
