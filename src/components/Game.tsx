@@ -1,5 +1,6 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useLayoutEffect, useMemo } from 'react';
 import { useParams } from 'react-router-dom';
+import Spinner from './Spinner';
 import YouWin from './YouWin';
 import stands from '../data/stands';
 import users from '../data/users';
@@ -14,8 +15,12 @@ interface Props {
 export default function Game({ setPalette }: Props) {
   const { id } = useParams<{ id: string }>();
   const part = +id;
-  setPalette(part);
 
+  useLayoutEffect(() => {
+    setPalette(part);
+  }, [setPalette, part]);
+
+  const [loaded, setLoaded] = useState(0);
   const [opened, setOpened] = useState<number[]>([]);
   const [matched, setMatched] = useState<number[]>([]);
   const [busy, setBusy] = useState(false);
@@ -67,7 +72,9 @@ export default function Game({ setPalette }: Props) {
     <>
       {matched.length === 14 && <YouWin restart={restart} />}
 
-      <Cards>
+      {loaded !== 28 && <Spinner />}
+
+      <Cards loaded={loaded}>
         {pairs.map((pair, index) => {
           let isFlipped = false;
 
@@ -81,7 +88,11 @@ export default function Game({ setPalette }: Props) {
               onClick={() => flipCard(index)}
             >
               <Front>
-                <Img src={`${API_IMG}${pair.image}.webp`} alt={pair.name} />
+                <Img
+                  src={`${API_IMG}${pair.image}.webp`}
+                  alt={pair.name}
+                  onLoad={() => setLoaded(loaded + 1)}
+                />
               </Front>
               <Back />
             </Card>

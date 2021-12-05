@@ -45,9 +45,9 @@ const wrapper = css`
   }
 `;
 
-export const Cards = styled.div`
+export const Cards = styled.div<{ loaded: number }>`
   width: 100%;
-  display: grid;
+  display: none;
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 1.4vw;
   padding: 0 10%;
@@ -55,6 +55,7 @@ export const Cards = styled.div`
   top: 50%;
   transform: translateY(-50%);
   -webkit-tap-highlight-color: transparent;
+  ${({ loaded }) => loaded === 28 && `display: grid;`}
 
   @media only screen and (max-width: 960px) {
     grid-template-columns: repeat(4, 1fr);
@@ -173,4 +174,36 @@ export const Wrapper = styled.div`
 export const StyledLink = styled(Link)`
   display: block;
   ${wrapper}
+`;
+
+export const SpinnerOverlay = styled.div`
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22.4px;
+
+  @media only screen and (max-width: 1920px) {
+    font-size: 16px;
+  }
+`;
+
+export const SpinnerContainer = styled.div`
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  border: 0.3em solid rgba(195, 195, 195, 0.6);
+  border-radius: 50%;
+  border-top-color: #636767;
+  animation: spin 1s ease-in-out infinite;
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 `;
