@@ -42,7 +42,7 @@ export default function Game({ setPalette }: Props) {
 
     const isNewMatch =
       first.id === second.id &&
-      first.name !== second.name &&
+      first.image !== second.image &&
       !matched.includes(first.id);
 
     if (isNewMatch) setMatched([...matched, first.id]);
