@@ -1,4 +1,4 @@
-import { useState, useEffect, useLayoutEffect, useMemo } from 'react';
+import { useState, useEffect, useRef, useLayoutEffect, useMemo } from 'react';
 import { useParams } from 'react-router-dom';
 import Spinner from './Spinner';
 import YouWin from './YouWin';
@@ -20,10 +20,10 @@ export default function Game({ setPalette }: Props) {
     setPalette(part);
   }, [setPalette, part]);
 
-  const [loaded, setLoaded] = useState(0);
   const [opened, setOpened] = useState<number[]>([]);
   const [matched, setMatched] = useState<number[]>([]);
   const [busy, setBusy] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const [{ start, end }, setPosition] = useState(() =>
     getPosition(users[part].length)
@@ -33,6 +33,14 @@ export default function Game({ setPalette }: Props) {
     () => shuffleArrays(users[part], stands[part], start, end),
     [part, start, end]
   );
+
+  const counter = useRef(0);
+  const imageLoaded = () => {
+    counter.current += 1;
+    if (counter.current >= 23) {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
     if (opened.length < 2) return;
@@ -56,25 +64,29 @@ export default function Game({ setPalette }: Props) {
     }
   }, [opened, pairs, matched]);
 
-  const flipCard = (index: number) => {
-    if (!busy) setOpened((opened) => [...opened, index]);
+  const flipCard = (index: number, id: number) => {
+    if (!busy && !matched.includes(id)) {
+      setOpened((opened) => [...opened, index]);
+    }
   };
 
   const restart = () => {
+    setLoading(true);
+    counter.current = 0;
     setMatched([]);
     setOpened([]);
     setTimeout(() => {
       setPosition(() => getPosition(users[part].length));
-    }, 500);
+    }, 300);
   };
 
   return (
     <>
-      {matched.length === 14 && <YouWin restart={restart} />}
+      {matched.length === pairs.length / 2 && <YouWin restart={restart} />}
 
-      {loaded !== 28 && <Spinner />}
+      {loading && <Spinner />}
 
-      <Cards loaded={loaded}>
+      <Cards $loading={loading}>
         {pairs.map((pair, index) => {
           let isFlipped = false;
 
@@ -85,13 +97,13 @@ export default function Game({ setPalette }: Props) {
             <Card
               key={index}
               isFlipped={isFlipped}
-              onClick={() => flipCard(index)}
+              onClick={() => flipCard(index, pair.id)}
             >
               <Front>
                 <Img
                   src={`${API_IMG}${pair.image}.webp`}
                   alt={pair.name}
-                  onLoad={() => setLoaded(loaded + 1)}
+                  onLoad={imageLoaded}
                 />
               </Front>
               <Back />

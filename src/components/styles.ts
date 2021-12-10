@@ -45,7 +45,7 @@ const wrapper = css`
   }
 `;
 
-export const Cards = styled.div<{ loaded: number }>`
+export const Cards = styled.div<{ $loading: boolean }>`
   width: 100%;
   display: none;
   grid-template-columns: repeat(7, 1fr);
@@ -55,7 +55,7 @@ export const Cards = styled.div<{ loaded: number }>`
   top: 50%;
   transform: translateY(-50%);
   -webkit-tap-highlight-color: transparent;
-  ${({ loaded }) => loaded === 28 && `display: grid;`}
+  ${({ $loading }) => !$loading && `display: grid;`}
 
   @media only screen and (max-width: 960px) {
     grid-template-columns: repeat(4, 1fr);
